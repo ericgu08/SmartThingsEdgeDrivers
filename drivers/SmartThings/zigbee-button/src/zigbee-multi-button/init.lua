@@ -29,6 +29,7 @@ local ZIGBEE_MULTI_BUTTON_FINGERPRINTS = {
   { mfr = "KE", model = "TRADFRI open/close remote" },
   { mfr = "SOMFY", model = "Situo 1 Zigbee" },
   { mfr = "SOMFY", model = "Situo 4 Zigbee" },
+  { mfr = "sengled", model = "E1E-G7F" },
   { mfr = "LDS", model = "ZBT-CCTSwitch-D0001" },
   { mfr = "ShinaSystem", model = "MSM-300Z" },
   { mfr = "ShinaSystem", model = "BSM-300Z" },
@@ -69,6 +70,7 @@ local zigbee_multi_button = {
   sub_drivers = {
     require("zigbee-multi-button.ikea"),
     require("zigbee-multi-button.somfy"),
+    require("zigbee-multi-button.sengled"),
     require("zigbee-multi-button.ecosmart"),
     require("zigbee-multi-button.centralite"),
     require("zigbee-multi-button.adurosmart"),

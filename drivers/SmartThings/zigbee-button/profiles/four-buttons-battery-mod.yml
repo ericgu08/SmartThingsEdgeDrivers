@@ -1,0 +1,47 @@
+name: four-buttons-battery-mod
+components:
+  - label: "Button ON"
+    id: button1
+    capabilities:
+      - label: ON
+        id: button
+        version: 1
+    categories:
+      - name: RemoteController
+  - label: "Button UP"
+    id: button2
+    capabilities:
+      - label: UP
+        id: button
+        version: 1
+    categories:
+      - name: RemoteController
+  - label: "Button DOWN"
+    id: button3
+    capabilities:
+      - label: DOWN
+        id: button
+        version: 1
+    categories:
+      - name: RemoteController
+  - label: "Button OFF"
+    id: button4
+    capabilities:
+      - label: OFF
+        id: button
+        version: 1
+    categories:
+      - name: RemoteController
+  - label: "Button Catch all"
+    id: main
+    capabilities:
+      - id: button
+        version: 1
+      - id: battery
+        version: 1
+      - id: firmwareUpdate
+        version: 1
+      - id: refresh
+        version: 1
+    categories:
+      - name: RemoteController

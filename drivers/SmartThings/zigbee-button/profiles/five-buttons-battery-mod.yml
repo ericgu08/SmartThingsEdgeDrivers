@@ -1,0 +1,49 @@
+name: five-buttons-battery-mod
+components:
+  - label: "Button CENTER"
+    id: button5
+    capabilities:
+      - id: button
+        version: 1
+    categories:
+      - name: RemoteController
+  - label: "Button UP"
+    id: button1
+    capabilities:
+      - id: button
+        version: 1
+    categories:
+      - name: RemoteController
+  - label: "Button DOWN"
+    id: button3
+    capabilities:
+      - id: button
+        version: 1
+    categories:
+      - name: RemoteController
+  - label: "Button LEFT"
+    id: button4
+    capabilities:
+      - id: button
+        version: 1
+    categories:
+      - name: RemoteController
+  - label: "Button RIGHT"
+    id: button2
+    capabilities:
+      - id: button
+        version: 1
+    categories:
+      - name: RemoteController
+  - id: main
+    capabilities:
+      - id: button
+        version: 1
+      - id: battery
+        version: 1
+      - id: firmwareUpdate
+        version: 1
+      - id: refresh
+        version: 1
+    categories:
+      - name: RemoteController

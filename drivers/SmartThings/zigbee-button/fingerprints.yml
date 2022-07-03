@@ -38,7 +38,7 @@ zigbeeManufacturer:
     deviceLabel: IKEA Remote Control
     manufacturer: IKEA of Sweden
     model: TRADFRI remote control
-    deviceProfileName: five-buttons-battery
+    deviceProfileName: five-buttons-battery-mod
   - id: "KE/TRADFRIopenclose"
     deviceLabel: IKEA Remote Control
     manufacturer: KE
@@ -129,3 +129,8 @@ zigbeeManufacturer:
     manufacturer: Samjin
     model: button
     deviceProfileName: one-button-temp-battery
+  - id: Sengled/E1E-G7F
+    deviceLabel: Sengled Remote Control
+    manufacturer: sengled
+    model: E1E-G7F
+    deviceProfileName: four-buttons-battery-mod
